@@ -32,7 +32,7 @@
 	}
     </style> 
     <script>
-    var countDownDate = new Date("Jul 20, 2018 17:00:00").getTime();
+    var countDownDate = new Date("Sep 27, 2019 17:00:00").getTime();
     var x = setInterval(function() {
       var now = new Date().getTime();
       var distance = countDownDate - now;
@@ -43,7 +43,7 @@
       document.getElementById("counter").innerHTML = "<span class=\"eggfont\">" + days + "d " + hours + "h " + minutes + "m " + seconds + "s </span>";
       if (distance < 0) {
 	clearInterval(x);
-	document.getElementById("counter").innerHTML = "BIMSB <span class=\"eggfont eggclub\">EGG CLUB</span> beer hour is on @MDC.C!<br />Be there or be ellyptic.<br /><span class=\"eggclub eggfont\">BYOE</span>";
+	document.getElementById("counter").innerHTML = "BIMSB <span class=\"eggfont eggclub\">EGG CLUB</span> beer hour is on!<br />Be there or be ellyptic.<br /><span class=\"eggclub eggfont\">BYOE</span>";
       }
     }, 1000);
     </script>
@@ -51,7 +51,9 @@
 <body>
     <div id="container">
     <p id="counter"></p>
+<!--
     <p class="link-container"><a href="https://www.facebook.com/events/962128857312279/">Facebook event here!</a></p>
+-->
     </div>
 </body>
 </html>
